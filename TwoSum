@@ -1,0 +1,19 @@
+'''py
+class Solution(object):
+    def twoSum(self, nums, target):
+        self.nums = nums
+        self.target = target
+       
+        
+        for x in range(len(nums)):# checking the index of array with refereence x
+            for y in range(len(nums)): #hecking the array with reference y
+             chek =nums[x]+ nums[y] # variable that stores the sum of two numbers
+             if x!=y and chek == target:   # chek that index dont match, if yes see if sum equals the target    
+                 
+                return [x,y] # if yes return the indices
+       
+        
+         # using + operator and comparision
+         #get their location and return the index
+            
+'''        
